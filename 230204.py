@@ -5,4 +5,7 @@ def solution(numbers, k):
     for i in range (1, k):
         temp+=2
         answer=temp%len(numbers)
-    return numbers[answer]
+
+    return print(numbers[answer])
+
+solution([1, 2, 3, 4, 5, 6]	,2)
